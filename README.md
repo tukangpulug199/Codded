@@ -1,0 +1,2 @@
+# Codded
+GUNAKAN DENGAN BIJAK :V
